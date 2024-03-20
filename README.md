@@ -1,6 +1,6 @@
 # Cook-or-Be-Eaten
 
-Ctreated by Timothy Mckague, Fabian Aguilar, Gabriel Marin, Julian Sosa.
+Created by Timothy Mckague, Fabian Aguilar, Gabriel Marin, Julian Sosa.
 
 Art by Fabian Aguilar, Timothy Mckague.
 

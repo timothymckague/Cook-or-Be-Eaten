@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
 
     public SpriteRenderer theSR;
 
+    private bool movingBackwards;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +40,15 @@ public class PlayerController : MonoBehaviour
         {
             theSR.flipX = false;
         }
+
+        if(!movingBackwards && moveInput.y > 0)
+        {
+            movingBackwards = true;
+        } else if(movingBackwards && moveInput.y < 0)
+        {
+            movingBackwards = false;
+        }
+        anim.SetBool("movingBackwards", movingBackwards);
     }
 
-    
 }
